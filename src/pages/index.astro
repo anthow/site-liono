@@ -1,6 +1,7 @@
 ---
 // Component Imports
 import Header from '../components/header.astro';
+import { SEO } from "astro-seo";
 // You can import components from any supported Framework here!
 
 
@@ -13,11 +14,22 @@ let title = 'Liono';
 // Full Astro Component Syntax:
 // https://docs.astro.build/core-concepts/astro-components/
 ---
-<html lang="en">
+<html lang="fr">
 <head>
+
+    <SEO
+      title="Liono agence numérique reponsable et liégeoise"
+      description="Liono l'agence numérique qui vous accompagne dans le développement de vos solutions numériques écoresponsables à Liège" 
+     canonical="https://liono.be/"
+      />
+    <meta property="og:title" content="Liono agence numérique reponsable et liégeoise" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://res.cloudinary.com/liono/image/upload/v1638468636/site%20Liono/liono_jy2bbl.png">
+    <meta property="og:url" content="https://liono.be/"/>
+    <meta property="og:description" content="Liono l'agence numérique qui vous accompagne dans le développement de vos solutions numériques écoresponsables à Liège"/>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
-    <title>{title}</title>
 
 
 
@@ -94,11 +106,11 @@ Parlons de votre projet          </button></a>
     
     <h2 id="service" class="m-auto text-center text-4xl text-liono-green mb-20 w-max pb-2 border-b-2 border-liono-yellow"> Nos services</h2>
     <article class="md:grid flex flex-col grid-cols-2 w-10/12 m-auto mb-20 gap-x-20">
-        <figure class="mb-5 md:mb-0"> <img loading="lazy"  src="https://res.cloudinary.com/liono/image/upload/v1638528286/site%20Liono/green-web_g2kswb.webp" alt="Photo d'illustration de la section site eco-pensé"></figure>
+        <figure class="mb-5 md:mb-0 h-full"> <img loading="lazy"  src="https://res.cloudinary.com/liono/image/upload/v1638528286/site%20Liono/green-web_g2kswb.webp" alt="Photo d'illustration de la section site eco-pensé"></figure>
     <section> 
          <h3 class="  text-3xl text-liono-green mb-10  "> Sites Internet et e-shop éco-pensés 
 </h3>
-<div class="flex flex-col space-y-10 m-auto">
+<div class="flex flex-col space-y-5 m-auto">
 <p>Vous souhaitez avoir un site vitrine illustrant votre activité ou bien mettre en place un e-shop pour vendre toutes vos productions ?
 </p>
 <p>Nous avons des solutions pour vous qui vont à la fois vous permettre d'atteindre vos objectifs et proposer un site le plus écologique possible.</p>
@@ -117,7 +129,7 @@ Parlons de votre projet          </button></a>
       <article class="md:grid flex flex-col grid-cols-2 w-10/12 m-auto mb-20 gap-x-20">
     <section class="order-2 md:order-1"> 
          <h3 class="  text-3xl text-liono-blue mb-10  "> Formations </h3>
-<div class="flex flex-col space-y-10 m-auto">
+<div class="flex flex-col space-y-5 m-auto">
 <p> La création de sites sobres numériquement, n'est pas la seule démarche numérique à mettre en place quand on veut limiter son empreinte carbone.
 
 </p>
@@ -142,7 +154,7 @@ Parlons de votre projet          </button></a>
     <section> 
          <h3 class="  text-3xl text-liono-yellow mb-10  ">       Accompagnement digital  
 </h3>
-<div class="flex flex-col space-y-10 m-auto">
+<div class="flex flex-col space-y-5 m-auto">
 <p> Vous avez déjà des solutions numériques mises en place au sein de votre activité, mais vous souhaitez néanmoins les réévaluer et avoir une démarche plus écologique ?
 
 </p>
