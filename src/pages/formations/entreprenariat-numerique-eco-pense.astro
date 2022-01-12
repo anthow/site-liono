@@ -1,0 +1,186 @@
+---
+// Component Imports
+import Header from '../../components/header.astro';
+import { SEO } from "astro-seo";
+// You can import components from any supported Framework here!
+
+
+// Component Script:
+// You can write any JavaScript/TypeScript that you'd like here.
+// It will run during the build, but never in the browser.
+// All variables are available to use in the HTML template below.
+let title = 'Liono';
+
+// Full Astro Component Syntax:
+// https://docs.astro.build/core-concepts/astro-components/
+---
+<html lang="fr">
+<head>
+
+    <SEO
+      title="Liono agence numérique reponsable et liégeoise"
+      description="Liono l'agence numérique qui vous accompagne dans le développement de vos solutions numériques écoresponsables à Liège" 
+     canonical="https://liono.be/"
+      />
+    <meta property="og:title" content="Liono agence numérique reponsable et liégeoise" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://res.cloudinary.com/liono/image/upload/v1638468636/site%20Liono/liono_jy2bbl.png">
+    <meta property="og:url" content="https://liono.be/"/>
+    <meta property="og:description" content="Liono l'agence numérique qui vous accompagne dans le développement de vos solutions numériques écoresponsables à Liège"/>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+
+
+
+<link rel="apple-touch-icon" sizes="144x144" href="/../assets/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/../assets/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/../assets/favicon-16x16.png">
+<link rel="manifest" href="/../assets/site.webmanifest">
+<link rel="mask-icon" href="/../assets/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+    
+  <link rel="stylesheet" href={Astro.resolve("../../styles/global.css")} >
+  <link rel="stylesheet" type="text/css" href="../assets/print.css" media="print">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" async defer integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+</head>
+<body class="">
+    <main class="w-12/12 m-auto">
+       <Header />
+
+     <!--Hero-->
+    <div class=" w-12/12 py-5 md:py-20 bg-liono-green  ">
+      <div class="md:w-10/12 px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
+                       <h1 class="my-4 text-white text-center text-3xl md:text-5xl font-bold m-auto ">
+ Les outils numériques ecoresponsables qui feront évoluer votre projet          </h1>
+        <!--Left Col-->
+        <div class="flex  flex-col w-full md:w-3/6 justify-center items-start text-center md:text-left order-2">
+
+        <div class="bg-white rounded p-10">
+                  <p class=" text-xl  mb-4 font-black text-liono-blue ">
+           introduction à l'entreprenariat numérique éco-pensé. 
+</p>
+<ul class="flex flex-col md:flex-row items-center   space-y-4 m-auto md:space-y-0 mb-5 md:justify-between md:py-4">
+<li class="flex space-x-2 items-center "> <i class="far fa-clock text-liono-yellow font-black text-3xl"></i> <p class="text-lg ">4h</p></li>
+<li class="flex space-x-2 items-center"> <i class="fas fa-euro-sign text-liono-yellow font-black text-3xl"></i><p class="text-lg ">100 €/personne</p></li>
+<li class="flex space-x-2 items-center"> <p class="text-lg "> niveau:</p> <i class="fas fa-star text-liono-yellow font-black text-lg"></i> </li>
+</ul>
+<p>Vous souhaitez trouver les applications et les bonnes pratiques qui permettront de développer votre activité de manière éco-pensée ?
+
+Dans cet atelier, vous allez découvrir l'impact écologique du numérique, pour ensuite, définir les sources de pollutions numériques au sein de votre projet.
+
+Ensuite, nous définirons ensemble les outils éco-pensés indispensables à votre projet.
+Pour faire de vous un écopreneur en devenir.</p>  
+        </div>
+ 
+
+
+          <a href="">
+          <button class="mx-auto lg:mx-0  bg-white  font-bold text-liono-blue rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+s'inscrire à la formation</button></a>
+        </div>
+        <!--Right Col-->
+        <div class="w-full md:w-3/6 py-6 text-center order-1">
+          <img class="w-full md:w-4/5 z-50" alt="image d'accroche Liono" loading="lazy" 
+          src="https://res.cloudinary.com/liono/image/upload/v1642006100/site%20Liono/accompagnement2_njf4mp.svg" />
+        </div>
+      </div>
+    </div>
+    <div class="hidden md:block md:relative -mt-12 lg:-mt-24">
+      <svg viewBox="0 0 1428 174" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+          <g transform="translate(-2.000000, 44.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <path d="M0,0 C90.7283404,0.927527913 147.912752,27.187927 291.910178,59.9119003 C387.908462,81.7278826 543.605069,89.334785 759,82.7326078 C469.336065,156.254352 216.336065,153.6679 0,74.9732496" opacity="0.100000001"></path>
+            <path
+              d="M100,104.708498 C277.413333,72.2345949 426.147877,52.5246657 546.203633,45.5787101 C666.259389,38.6327546 810.524845,41.7979068 979,55.0741668 C931.069965,56.122511 810.303266,74.8455141 616.699903,111.243176 C423.096539,147.640838 250.863238,145.462612 100,104.708498 Z"
+              opacity="0.100000001"
+            ></path>
+            <path d="M1046,51.6521276 C1130.83045,29.328812 1279.08318,17.607883 1439,40.1656806 L1439,120 C1271.17211,77.9435312 1140.17211,55.1609071 1046,51.6521276 Z" id="Path-4" opacity="0.200000003"></path>
+          </g>
+          <g transform="translate(-4.000000, 76.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <path
+              d="M0.457,34.035 C57.086,53.198 98.208,65.809 123.822,71.865 C181.454,85.495 234.295,90.29 272.033,93.459 C311.355,96.759 396.635,95.801 461.025,91.663 C486.76,90.01 518.727,86.372 556.926,80.752 C595.747,74.596 622.372,70.008 636.799,66.991 C663.913,61.324 712.501,49.503 727.605,46.128 C780.47,34.317 818.839,22.532 856.324,15.904 C922.689,4.169 955.676,2.522 1011.185,0.432 C1060.705,1.477 1097.39,3.129 1121.236,5.387 C1161.703,9.219 1208.621,17.821 1235.4,22.304 C1285.855,30.748 1354.351,47.432 1440.886,72.354 L1441.191,104.352 L1.121,104.031 L0.457,34.035 Z"
+            ></path>
+          </g>
+        </g>
+      </svg>
+    </div>
+  
+    
+    <article class="md:grid flex flex-col grid-cols-2 w-10/12 m-auto mb-20 gap-x-20">
+    <div>     <h2 id="service" class=" mt-10 md:mt-0 mb-5 text-4xl text-liono-green  w-max pb-2 border-b-2 border-liono-yellow"> Objectifs</h2>
+    <p>Lors de cet atelier vous allez  découvrir et comprendre les réels impacts écologiques du numérique.
+     Par la suite, vous définir les outils et bonnes pratiques éco-pénsées à mettre en place au sein de votre propre activité. 
+</p>
+<p class="mt-4 font-black">Vous repartirez avec vos propres outils éco-prensé qui permettront de faire évoluer votre projet tout en respectant vos valeurs environementales 
+</p>
+
+          <a href="">
+          <button class="mx-auto lg:mx-0  bg-liono-blue  font-bold text-white rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+s'inscrire à la formation        </button></a>
+</div>
+    <section> 
+<ul class="flex flex-col space-y-5 m-auto">
+<li><h3 class="mt-5 md:mt-0 mb-5 text-xl text-liono-green  w-max pb-2 border-b-2 border-liono-yellow">groupe:</h3> <p>4  à 6 personnes</p></li>
+<li> <h3 class=" mb-5 text-xl text-liono-green  w-max pb-2 border-b-2 border-liono-yellow">matériel requis:</h3> <p> de quoi prendre note </p></li>
+<li><h3 class=" mb-5 text-xl text-liono-green  w-max pb-2 border-b-2 border-liono-yellow">public cible:</h3> entrepreneurs, entrepeneurs de projet à impact</li>
+</ul>
+    </section>
+    
+    </article>
+
+      <article class=" w-12/12 m-auto  m-auto bg-liono-blue ">
+        <h2 id="service" 
+        class=" m-auto text-4xl text-white mb-10 w-max pb-2 pt-10 pb-2 border-b-2 border-liono-yellow "> Programme</h2>
+<div class=" md:py-20 md:space-x-32 space-y-10 md:space-y-0 justify-center m-auto  text-white flex flex-col md:flex-row">
+<div class="md: border-r-2 md:pr-10 md:border-white">
+<h4 class="text-2xl text-center mb-5 font-black pb-4"><span class=" mr-2 bg-white text-liono-yellow p-2 rounded-full">1</span> Introduction</h4>
+<ul class=" w-9/12 md:w-12/12 text-center m-auto font-black space-y-2 ">
+<li>présentation de la formation</li>
+<li>présentation du formateurs</li>
+<li>présentation des participants</li>
+</ul>
+ </div>
+<div class="md:border-r-2 md:pr-10 md:border-white">
+<h4 class="text-2xl text-center mb-5 font-black pb-4"><span class="mr-2 bg-white text-liono-yellow p-2 rounded-full">2</span> Théorie</h4>
+<ul class="w-9/12 md:w-12/12 m-auto font-black text-center space-y-2">
+<li>découverte de l'impact écologique du numérique</li>
+<li>découverte des solutions niveau hardware</li>
+<li>découverte des solutions niveau software</li>
+</ul>
+</div>
+<div class="">
+<h4 class="text-2xl text-center mb-5 font-black pb-4"><span class="mr-2 bg-white text-liono-yellow p-2 rounded-full">3</span> Mise en pratique</h4>
+<ul class="w-9/12 md:w-12/12 m-auto font-black text-center space-y-2">
+<li>définition des besoins de votre projet</li>
+<li>choix des solutions éco-pensées adéquates </li>
+</ul>
+</div>
+ </div> 
+ <div class="m-auto text-center md:w-6/12">
+          <a class="" href="">
+          <button class="md:mb-20  m-auto text-center  bg-white  
+          font-bold text-liono-blue rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none 
+          focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+s'inscrire à la formation        </button></a> 
+</div>  
+</article>
+
+               
+        <!--
+           - You can also use imported framework components directly in your markup!
+           -
+           - Note: by default, these components are NOT interactive on the client.
+           - The `:visible` directive tells Astro to make it interactive.
+           -
+           - See https://docs.astro.build/core-concepts/component-hydration/ 
+           -->
+<footer class="w-12/12 m-auto bg-liono-green py-2">
+
+<p class="text-center text-sm text-white">@liono.be</p></footer>
+    </main>
+</body>
+</html>
